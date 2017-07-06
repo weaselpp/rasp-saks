@@ -5,9 +5,9 @@
 # http://www.nxez.com
 #
 
-import sys
-sys.path.append('/usr/src/python/SAKS20')
-
+import saksconfig
+# sys.path.append('/usr/src/python/SAKS20')
+saksconfig.importLibPath()
 
 
 from sakshat import SAKSHAT
