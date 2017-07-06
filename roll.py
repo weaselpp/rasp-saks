@@ -5,9 +5,9 @@
 # http://www.nxez.com
 #
 
-import sys
-sys.path.append('/usr/src/python/SAKS20')
-
+import saksconfig
+# sys.path.append('/usr/src/python/SAKS20')
+saksconfig.importLibPath()
 
 
 from sakshat import SAKSHAT
@@ -53,3 +53,4 @@ if __name__ == "__main__":
 
         time.sleep(0.0001)
     input("Enter any keys to exit...")
+
